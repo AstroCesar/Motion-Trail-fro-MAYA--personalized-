@@ -1,0 +1,5 @@
+snapshot  -motionTrail 1  -increment 1 -startTime `playbackOptions -query -min` -endTime `playbackOptions -query -max`;
+setAttr "motionTrail1HandleShape.showFrameMarkers" 1;
+setAttr "motionTrail1HandleShape.frameMarkerColor" -type double3 0 1 1 ;
+setAttr "motionTrail1HandleShape.showFrames" 0;
+setAttr "motionTrail1HandleShape.keyframeSize" 0.1;
